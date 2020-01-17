@@ -1,0 +1,13 @@
+[Unit]
+Description=Raspberry delayed dhcp-server start. Wait for eth0
+
+[Service]
+ExecStart=/bin/bash /home/pi/scripts/delayedDHCP.sh
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
+
