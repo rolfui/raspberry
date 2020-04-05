@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 
 
-file_name = 'log-135146.txt'
+file_name = 'log-184823.txt'
 
 M = np.loadtxt(file_name , delimiter=',' , encoding='utf-8')
 
