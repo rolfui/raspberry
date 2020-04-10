@@ -8,7 +8,7 @@ file_name = 'log-184823.txt'
 M = np.loadtxt(file_name , delimiter=',' , encoding='utf-8')
 
 x = M[:,0].astype('str')
-x = [ i[8:14] for i in x]
+x = [ i[6:14] for i in x]
 #x = M[:,0].astype('int').astype('str')
 #co2 = M[:,1].astype('int')
 
